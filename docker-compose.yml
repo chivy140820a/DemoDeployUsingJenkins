@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  product.api:
+    image: ${DOCKER_REGISTRY-}product-api:${PLATFORM:-linux}-${TAG:-latest}
+    container_name: product.api
+    build:
+      context: .
+      dockerfile: DemoMVC/Dockerfile
+    ports:
+      - "8002:80"
+    restart: always
+networks:
+  default:
+    name: tedu_microservices
+    external: true
