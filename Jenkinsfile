@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('Building/Deploying') {
             steps {
-                sh 'docker ps'
+                withDockerRegistry(credentialsId: 'dockerhub', url: 'https://index.docker.io/v1/') {
+                    sh label: '', script:'docker ps'
+                }
             }
         }
     }
