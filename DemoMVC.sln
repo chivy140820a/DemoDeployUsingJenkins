@@ -5,10 +5,10 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMVC", "DemoMVC\DemoMVC.csproj", "{2B6CD8F0-EB7A-4628-B5DC-881EC51233CC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{DEF39659-26ED-4A99-9183-0CF6EF811109}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{8FCA7650-D141-46D2-842F-D2E3CFC0AEC6}"
 	ProjectSection(SolutionItems) = preProject
-		DemoMVC\docker-compose.yml = DemoMVC\docker-compose.yml
-		DemoMVC\Jenkinsfile = DemoMVC\Jenkinsfile
+		docker-compose.yml = docker-compose.yml
+		Jenkinsfile = Jenkinsfile
 	EndProjectSection
 EndProject
 Global

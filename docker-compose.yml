@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   product.api:
     image: ${DOCKER_REGISTRY-}product-api:${PLATFORM:-linux}-${TAG:-latest}
@@ -13,4 +11,3 @@ services:
 networks:
   default:
     name: tedu_microservices
-    external: true

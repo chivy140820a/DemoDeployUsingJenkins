@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IDvSfIzlRUd7MpJoDo0ktfj2joQ7TPcWdeMhNbQhVKA+X9yyJM+IkkGoKaPZ8brSRvyRF+AbzvAQSF1PNAQJqA==",
+  "dgSpecHash": "w8Q8gPeHcNx1cGjpYmYXk6EY6aXQ9J4FlOjTMJwgpQQypK4RKsOSHiw4uu5WiTbc9EuJBJlYwY57gMRv8QFKdg==",
   "success": true,
   "projectFilePath": "D:\\Net\\DemoMVC\\Demo\\DemoAPI\\DemoMVC\\DemoMVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
