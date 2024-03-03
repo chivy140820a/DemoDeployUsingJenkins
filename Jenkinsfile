@@ -12,9 +12,7 @@ pipeline {
             }
         }
         stage('Removing all') {
-            when{
-                environment name: 'ACTION', value: 'Remove all'
-            }
+            
             steps {
                 sh 'docker compose down -v '
             }
